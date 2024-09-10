@@ -9,11 +9,11 @@ var _a;
     var skillElement = document.getElementById('skill');
     if (nameElement && emailElement && phoneElement && educationElement && experienceElement && skillElement) {
         var name_1 = nameElement.value;
-        var email = nameElement.value;
-        var phone = nameElement.value;
-        var edu = nameElement.value;
-        var experience = nameElement.value;
-        var skill = nameElement.value;
+        var email = emailElement.value;
+        var phone = phoneElement.value;
+        var edu = educationElement.value;
+        var experience = experienceElement.value;
+        var skill = skillElement.value;
         // const resumeOutput = `
         var resumeOutput = " <h2>Resume</h2>\n   <p> <strong> Name: </strong> ".concat(name_1, "</p>   \n    <p> <strong> Email: </strong> ").concat(email, "</p>   \n    <p> <strong> Phone: </strong> ").concat(phone, "</p>\n\n    <h3> Education </h3>\n    <p> ").concat(edu, "</p>\n\n    <h3> Experience </h3>\n    <p> ").concat(experience, "</p>\n\n    <h3> Skill </h3>\n    <p> ").concat(skill, "</p>\n    \n    ");
         var resumeOutputElement = document.getElementById('resumeOutput');
